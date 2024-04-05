@@ -96,29 +96,29 @@ if(isset($_POST["email"])){
 	  <div class="span3 second-section-span">
 	    <div class="second-section-text">
 		   	<p><span class="fa fa-search fa-4x" style="color: gray;"></span></p>
-			<p><b>Quick Job Search</b></p>
-			<p>Let's give you a faster way of find the career you desire. Gain full control of your interests.</p>
+			<p><b>Lista de trabalhos</b></p>
+			<p>Vamos oferecer uma maneira mais rápida de encontrar a carreira que você deseja. Obtenha controle total de seus interesses.</p>
 		 </div>
 	  </div>
 	  <div class="span3 second-section-span">
 	     <div class="second-section-text">
 		   	<p><span class="fa fa-binoculars fa-4x" style="color: gray;"></span></p>
-			<p><b>Candidate Discovery</b></p>
-			<p>We use AI to scour your existing applicant pool for top candidates.</p>
+			<p><b>Ache Cuidadores</b></p>
+			<p>Usamos IA para vasculhar nosso conjunto de candidatos existentes em buscaremos os melhores candidatos.</p>
 		 </div>
 	  </div>
 	  <div class="span3 second-section-span">
 	     <div class="second-section-text">
 		   	<p><span class="fa fa-file-text fa-4x" style="color: gray;"></span></p>
-			<p><b>Candidate Screening</b></p>
-			<p>We screen candidates automatically, in real-time, with incredible accuracy. Put screening on cruise control.</p>
+			<p><b>Triagem de Cuidadores</b></p>
+			<p>Selecionamos candidatos automaticamente, em tempo real, com incrível precisão. Coloque a triagem no controle de cruzeiro.</p>
 		 </div>
 	  </div>
 	  <div class="span3 second-section-span">
 	    <div class="second-section-text">
 		   	<p><span class="fa fa-comment fa-4x" style="color: gray;"></span></p>
-			<p><b>Recruiter Chatbot</b></p>
-			<p>Engage with candidates at scale, 24/7! Drastically increase response rates and eliminate initial screening calls.</p>
+			<p><b>Chatbot do recrutador</b></p>
+			<p>Interaja com os candidatos em grande escala, 24 horas por dia, 7 dias por semana! Aumente drasticamente as taxas de resposta e elimine as chamadas de triagem iniciais.</p>
 		 </div>
 	  </div>
 	</div>
@@ -129,13 +129,13 @@ if(isset($_POST["email"])){
 	<div class="row">
 	  <div class="span6 third-section-span-1">
 		<div class="third-section-text" style="text-align:left;">
-		  <p class="third-section-text-md">The best way to find a professional</p><br/>
-		  <a href="javascript:void()" style="color: #fff;font-size: 1.4em;" onclick="login()">Sign in &nbsp;<span class="fa fa-arrow-left"></span></a>
+		  <p class="third-section-text-md">A melhor maneira de encontrar um profissional</p><br/>
+		  <a href="javascript:void()" style="color: #fff;font-size: 1.4em;" onclick="login()">Entrar &nbsp;<span class="fa fa-arrow-left"></span></a>
 		 </div>
 	  </div>
 	  <div class="span6 third-section-span-2">
 	    <div class="third-section-text" style="text-align:right;">
-		  <p class="third-section-text-md">Need a job? <br/> Tell us your story</p><br/>
+		  <p class="third-section-text-md">Preciso de um emprego? <br/> Conte-nos sua história</p><br/>
 		  <a href="javascript:void()" style="color: #fff;font-size: 1.4em;" onclick="register()"><span class="fa fa-arrow-right"></span>&nbsp; Sign up</a>
 		</div>
 	  </div>
