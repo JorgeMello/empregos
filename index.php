@@ -66,8 +66,8 @@ if(isset($_POST["email"])){
 		<form class="navbar-search strict-mobile-no-show"  role="form" method="post" onSubmit="return false;">
           <input type="text" class="search-query" placeholder="Email" id="email" name="email" onkeyup="restrict('email')" /> 
 		  <input type="password" class="search-query" placeholder="Senha" id="password" name="password" onkeyup="restrict('password')"/>
-		   <span id="signinbtn"><button id="loginbtn" class="btn btn-primary" onclick="signin()" disabled>Entrar</button></span>&nbsp;
-		   <button id="registerbtn" class="btn btn-inverse" onclick="register()">Novo Usuário? Cadastre-se</button>
+		   <span id="signinbtn"><button id="loginbtn" class="btn btn-primary" onclick="signin()" disabled>Entrar</button></span>&nbsp;&nbsp;
+		   <button id="registerbtn" class="btn btn-inverse" onclick="register()">Novo Usuário? Cadastre-se</button>&nbsp;&nbsp;
 		   <button id="registerbtn" class="btn btn-primary" onclick="help()"><span class="fa fa-info"></span> Leia Mais</button>
         </form>
       </div>
