@@ -1,5 +1,5 @@
 <?php 
-include_once("_sys/check_login_status.php");
+include_once("check_login_status.php");
 if($user_ok == true){
 	header("location: sync&".$_SESSION["user_hash"]);
     exit();
@@ -41,16 +41,16 @@ if(isset($_POST["email"])){
 }
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
 <meta charset="utf-8">
-<title>Bacsyd</title>
-<?php include_once("_ext/default_head.php");?>
-<link href="_css/p.index.css" rel="stylesheet">
+<title>Cadastro de Currículo de Cuidador de Idosos</title>
+<?php include_once("default_head.php");?>
+<link href="css/p.index.css" rel="stylesheet">
 </head>
 <body class="index-body">
-<?php include_once("_ext/pageloader.php");?>
-<?php include_once("_ext/pageloader-starter.php");?>
+<?php //include_once("ext/pageloader.php");?>
+<?php //include_once("ext/pageloader-starter.php");?>
 <div class="navbar navbar-fixed-top" style="position: fixed;">
   <div class="navbar-inner">
     <div class="container"> 
@@ -58,16 +58,16 @@ if(isset($_POST["email"])){
 	    <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 	  </a>
 	  <a class="brand" href="javascript:void(0)" onclick="owlphinhome()">
-	    <img src="_img/owlphin_log.png" style="height:30px;" />
+	    <img src="imagem/owlphin_log.png" style="height:30px;" />
 		<span></span>
       </a>
       <div class="nav-collapse index">
 		<form class="navbar-search strict-mobile-no-show"  role="form" method="post" onSubmit="return false;">
           <input type="text" class="search-query" placeholder="Email" id="email" name="email" onkeyup="restrict('email')" /> 
-		  <input type="password" class="search-query" placeholder="Password" id="password" name="password" onkeyup="restrict('password')"/>
-		   <span id="signinbtn"><button id="loginbtn" class="btn btn-primary" onclick="signin()" disabled>Sign in</button></span>&nbsp;
-		   <button id="registerbtn" class="btn btn-inverse" onclick="register()">No account? Join Now</button>
-		   <button id="registerbtn" class="btn btn-primary" onclick="help()"><span class="fa fa-info"></span> Learn more</button>
+		  <input type="password" class="search-query" placeholder="Senha" id="password" name="password" onkeyup="restrict('password')"/>
+		   <span id="signinbtn"><button id="loginbtn" class="btn btn-primary" onclick="signin()" disabled>Entrar</button></span>&nbsp;
+		   <button id="registerbtn" class="btn btn-inverse" onclick="register()">Novo Usuário? Cadastre-se</button>
+		   <button id="registerbtn" class="btn btn-primary" onclick="help()"><span class="fa fa-info"></span> Leia Mais</button>
         </form>
       </div>
     </div>
@@ -79,11 +79,11 @@ if(isset($_POST["email"])){
 	<div class="row">
 	  <div class="span10 banner-span">
 		<div class="banner-text">
-		  <p class="banner-text-md">Welcome to the Bacsyd</p>
-		  <p class="banner-text-lg" style="font-size: 3.4em;line-height: 40px;">This is a job recruitment portal that speeds-up the current employee recruitment process using Artificial Intelligence.</p>
+		  <p class="banner-text-md ">Bem vindo ao Cadastro de Cuidadores de Idosos</p>
+		  <p class="banner-text-lg" style="font-size: 3.4em;line-height: 40px;text-shadow:#000 -1px -1px;">Este é um portal de recrutamento de empregos que agiliza o atual processo de recrutamento de funcionários usando Inteligência Artificial.</p>
 		  <p class="banner-text-md">
-			<a href="javascript:void(0)" onclick="help()" style="color: #d2d2d2;">Click here to learn more</a> or 
-			<a href="javascript:void(0)" onclick="register()" style="color: #d2d2d2;">Signup</a>
+			<a href="javascript:void(0)" onclick="help()" style="color: #d2d2d2;">Clique aqui e ache os melhores cuidadores</a> ou 
+			<a href="javascript:void(0)" onclick="register()" style="color: #d2d2d2;">Cadastre-se</a>
 		  </p>
 		</div>
 	  </div>
@@ -142,8 +142,8 @@ if(isset($_POST["email"])){
 	</div>
   </div>
 </div>
-<div class="footer"><?php include_once("_ext/footer.php");?></div>
-<?php include_once("_ext/default_js.php");?>
+<div class="footer"><?php include_once("ext/footer.php");?></div>
+<?php include_once("ext/default_js.php");?>
 <script type="text/javascript">
 function restrict(elem){
 	var tf = _(elem);
