@@ -47,6 +47,7 @@ if(isset($_POST["email"])){
 <title>Cadastro de Currículo de Cuidador de Idosos</title>
 <?php include_once("default_head.php");?>
 <link href="css/p.index.css" rel="stylesheet">
+<link href="css/_owlphin.css" rel="stylesheet">
 </head>
 <body class="index-body">
 <?php //include_once("ext/pageloader.php");?>
@@ -117,7 +118,7 @@ if(isset($_POST["email"])){
 	  <div class="span3 second-section-span">
 	    <div class="second-section-text">
 		   	<p><span class="fa fa-comment fa-4x" style="color: gray;"></span></p>
-			<p><b>Chatbot do recrutador</b></p>
+			<p><b>Chatbot do Recrutador</b></p>
 			<p>Interaja com os candidatos em grande escala, 24 horas por dia, 7 dias por semana! Aumente drasticamente as taxas de resposta e elimine as chamadas de triagem iniciais.</p>
 		 </div>
 	  </div>
